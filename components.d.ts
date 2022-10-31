@@ -5,7 +5,6 @@ import '@vue/runtime-core'
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
-    App: typeof import('./src/components/App.vue')['default']
     App1: typeof import('./src/components/App1.vue')['default']
     App2: typeof import('./src/components/App2.vue')['default']
     Card: typeof import('./src/components/Card/index.vue')['default']
